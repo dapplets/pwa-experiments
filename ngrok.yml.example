@@ -1,0 +1,12 @@
+version: 2
+authtoken: <YOUR_AUTH_TOKEN>
+tunnels:
+  first:
+    addr: 3001
+    proto: http    
+  second:
+    addr: 3002
+    proto: http
+  third:
+    addr: 3003
+    proto: http

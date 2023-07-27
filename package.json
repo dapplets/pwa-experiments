@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npm run start --workspace packages/main & npm run start --workspace packages/scenario-one & npm run start --workspace packages/scenario-two"
+    "start": "npm run start --workspace packages/main & npm run start --workspace packages/scenario-one & npm run start --workspace packages/scenario-two",
+    "proxy": "ngrok start --all --config ./ngrok.yml"
   },
   "workspaces": [
     "packages/main",
